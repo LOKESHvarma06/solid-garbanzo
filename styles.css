@@ -1,0 +1,97 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #000;
+  justify-content: space-between;
+  color: white;
+  display: flex;
+  padding: 4px;
+  text-align:left ;
+}
+
+header img.logo {
+  width: 100px;
+  height: 40px;
+  object-fit: contain;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.icon {
+ width: 24px;
+ height: 30px;
+ object-fit: contain;
+ cursor: pointer;
+
+}
+
+.storiesbar {
+  background-color: black;
+  padding-top: 20px;
+  padding-right: 0px;
+ display: flex;
+ margin-top: 0px;
+ overflow-x: auto;
+ gap: 5px;
+}
+.story {
+  flex-shrink: 0px;
+  text align: center;
+  margin-right: 2px;
+}
+.story img {
+  width: 60px;
+  height:60px ;
+  border-radius: 50px;
+  object-fit: cover;
+  border: 2px solid #f00 ;
+  margin-left: 15px;
+}
+.story p {
+  margin-top: 5px;
+  margin-left: 15px;
+  font size: 12px;
+  color: white;
+}
+.content {
+  flex-grow: 1; /* Take up remaining space */
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+footer {
+  background-color: #000;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  justify-content: space-between;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+
+}
+.bottom-icon {
+ width: 24px;
+ height: 30px;
+ object-fit: contain;
+ cursor: pointer;
+ margin-left:15px ;
+}
+.profile-icon {
+   width: 30px;
+  height:30px ;
+  border-radius: 50px;
+  object-fit: cover;
+  border: 2px solid white;
+}
